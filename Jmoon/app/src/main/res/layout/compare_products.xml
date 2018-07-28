@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Please select items to compare"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true" />
+
+        <com.meetme.android.horizontallistview.HorizontalListView
+            android:id="@+id/compareHorizontalList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="#5e00"
+            android:fadingEdgeLength="5dp"
+            android:padding="2dp"
+            android:requiresFadingEdge="horizontal"
+            widget:dividerWidth="3dp" />
+    </RelativeLayout>
+
+</LinearLayout>

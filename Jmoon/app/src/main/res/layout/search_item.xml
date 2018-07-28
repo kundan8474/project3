@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="85dp"
+            android:layout_height="80dp"
+            app:srcCompat="@mipmap/rrcircle"
+            android:id="@+id/search_image"
+            android:scaleType="fitCenter"
+            />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:id="@+id/search_name"
+            android:layout_weight="0.35"
+            android:textColor="@color/colorPrimaryDark"/>
+
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/search_price"
+            android:gravity="center"
+            android:layout_weight="0.18"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+    </LinearLayout>
+</LinearLayout>

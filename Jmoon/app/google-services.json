@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "45755847186",
+    "project_id": "roborium-1262"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45755847186:android:deee41ebd2a645cc",
+        "android_client_info": {
+          "package_name": "co.jmoon.roborium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "45755847186-9sh7k4o8ghuiom08u3nda6famtjm9uet.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jmoon.roborium",
+            "certificate_hash": "bdb9de3fa88ec6ba614dddb42c5616c85e56cae2"
+          }
+        },
+        {
+          "client_id": "45755847186-o8asul464p46n3qq4hdchl3qurgsmkr6.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "45755847186-52thp8rg4k90fsqp9s20c7vfo4ohkbgr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.jmoon.roborium",
+            "certificate_hash": "0be117e034c3c7ea0f36f68ba3b1c640719d4de8"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcUFqwFxHTibvgJDks2nVs05w8jXpJxOE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

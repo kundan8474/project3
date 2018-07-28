@@ -1,0 +1,96 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajaychowdhary.jmoon.co.example.ajaychowdhary.jmoon.Search"
+    android:padding="10dp"
+    android:windowSoftInputMode="adjustNothing">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:weightSum="1"
+        android:windowSoftInputMode="adjustNothing"
+
+        >
+
+        <Button
+            android:text="Submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_button" />
+
+        <ToggleButton
+            android:text="Filter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toggleButton"
+            android:layout_weight="0.23"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="382dp"
+            android:id="@+id/filter_details"
+            android:windowSoftInputMode="adjustNothing">
+
+            <TextView
+                android:text="Sort By"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sort_by" />
+
+            <TextView
+                android:text="Order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:id="@+id/radioGroup"
+                    android:orientation="horizontal">
+
+
+
+                    <RadioButton
+                        android:text="asc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/asc"
+                        android:layout_weight="1" />
+                    <RadioButton
+                        android:text="desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/desc"
+                        android:layout_weight="1" />
+
+                </RadioGroup>
+
+
+            <TextView
+                android:text="Categories"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/category_spinner" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
